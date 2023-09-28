@@ -49,6 +49,7 @@ h1.name {
     font-weight: 300;
     margin-top: 60px;
     line-height: 55px;
+    /* border: solid red 2px; */
   }
   
 
@@ -60,7 +61,7 @@ em {
     /* border: solid red 20px; */
     display: flex;
     margin: 10vw;
-    width: 70%;
+    width: 80%;
     /* border: solid red 2px; */
 }
 
@@ -68,7 +69,7 @@ em {
     /* border: solid red 20px; */
     display: flex;
     margin: 10vw;
-    width: 70%
+    width: 80%
 }
 .sections {
     vertical-align: top;
