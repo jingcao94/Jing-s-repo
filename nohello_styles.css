@@ -60,7 +60,7 @@ em {
     display: flex;
     margin: 10vw;
     width: 70%;
-    border: solid red 2px;
+    /* border: solid red 2px; */
 }
 
 .yesyes {
@@ -102,13 +102,13 @@ em {
     }
     .section-left {
         min-width: 90%;
-        border: solid green 2px; 
+        /* border: solid green 2px;  */
         /* Flexbox styles */
       }
 
       .section-right {
         min-width: 90%;
-        border: solid green 2px; 
+        /* border: solid green 2px;  */
         /* Flexbox styles */
       }
   }
@@ -126,7 +126,7 @@ em {
   flex-direction: column; /* Stacks children vertically */
   align-items: flex-start; /* Aligns children to the left */
   list-style-type: none;
-  border: solid blue 2px;
+  /* border: solid blue 2px; */
   min-width: 40%;
   }
 
