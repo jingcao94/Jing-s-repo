@@ -34,13 +34,20 @@ h1.name {
     display: inline-block;
     text-decoration-color: #fff;
   }
+
+  @media (max-width: 425px) {
+    h1.name {
+      font-size: 55px;
+    }
+    }
+  
   
 .subtitle {
     display: block;
     font-size: 24px;
     font-weight: 300;
     color: #81899c;
-    margin-top: -10px;
+    /* margin-top: -10px; */
     margin-bottom: 50px;
   }
 
@@ -167,14 +174,11 @@ em {
 }
 
 
-.cta-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
+#subscribe-btn {
+    background-color: #444649;
     text-decoration: none;
-    border-radius: 5px;
     font-weight: bold;
+    color:white;
   }
 
 
