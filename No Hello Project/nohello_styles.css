@@ -1,194 +1,199 @@
 .imageButton{
-    height: 200px;
-    width: 200px;
+  height: 200px;
+  width: 200px;
 }
 
 /* .parent{
-    display: flex;
-    justify-content:center;
+  display: flex;
+  justify-content:center;
 } */
 
 body{
-    line-height: 1;
-    font-family: lato, ubuntu, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
-    font-size:19;
-    line-height:1.8rem;
-    color: #04143a;
-    text-rendering: optimizeLegibility;
-    background-size: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    max-width: 1600px; 
-    margin: 0 auto;   /* Center the container horizontally */
+  line-height: 1;
+  font-family: lato, ubuntu, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+  font-size:19;
+  line-height:1.8rem;
+  color: #04143a;
+  text-rendering: optimizeLegibility;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  max-width: 1600px; 
+  margin: 0 auto;   /* Center the container horizontally */
 }
 
 .container {
-    font-size: 18px;
-    color: #616061;
-    margin: 10vw;
-  }
+  font-size: 18px;
+  color: #616061;
+  margin: 10vw;
+}
 
 h1.name {
-    font-size: 94px;
-    font-weight: 700;
-    display: inline-block;
-    text-decoration-color: #fff;
-  }
+  font-size: 94px;
+  font-weight: 700;
+  display: inline-block;
+  text-decoration-color: #fff;
+}
 
-  @media (max-width: 425px) {
-    h1.name {
-      font-size: 55px;
-    }
-    }
-  
-  
-.subtitle {
-    display: block;
-    font-size: 24px;
-    font-weight: 300;
-    color: #81899c;
-    /* margin-top: -10px; */
-    margin-bottom: 50px;
+@media (max-width: 425px) {
+  h1.name {
+    font-size: 55px;
   }
+  }
+  
+.strikethrough {
+    text-decoration: line-through;
+    color: red; /* Set the color to red */
+}
+
+
+.subtitle {
+  display: block;
+  font-size: 24px;
+  font-weight: 300;
+  color: #81899c;
+  /* margin-top: -10px; */
+  margin-bottom: 50px;
+}
 
 .lead{
-    font-size: 44px;
-    font-weight: 300;
-    margin-top: 60px;
-    line-height: 55px;
-    /* border: solid red 2px; */
-  }
-  
+  font-size: 44px;
+  font-weight: 300;
+  margin-top: 60px;
+  line-height: 55px;
+  /* border: solid red 2px; */
+}
+
 
 em {
-    font-style: italic;
+  font-style: italic;
 }
 
 .nono {
-    /* border: solid red 20px; */
-    display: flex;
-    margin: 10vw;
-    width: 80%;
-    /* border: solid red 2px; */
+  /* border: solid red 20px; */
+  display: flex;
+  margin: 10vw;
+  width: 80%;
+  /* border: solid red 2px; */
 }
 
 .yesyes {
-    /* border: solid red 20px; */
-    display: flex;
-    margin: 10vw;
-    width: 80%
+  /* border: solid red 20px; */
+  display: flex;
+  margin: 10vw;
+  width: 80%
 }
 .sections {
-    vertical-align: top;
-    display: inline-block;
-    margin:20px;
-    /* border: solid red 2px; */
-  
-    min-height: 50px;
+  vertical-align: top;
+  display: inline-block;
+  margin:20px;
+  /* border: solid red 2px; */
+
+  min-height: 50px;
 }
-  
+
 .section-left {
-    width: 40%;
+  width: 40%;
 
 
 }
-  
+
 .section-right {
-    width: 60%;
-    /* border: solid red 2px; */
+  width: 60%;
+  /* border: solid red 2px; */
 }
 
 .section-title {
-    font-size: 28px;
-    font-weight: 600;
-    margin-bottom: 15px;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 15px;
 }
 
 
 /* Media query for screens wider than 780px */
 @media (max-width: 781px) {
-    .container {
-      display: block; /* Change to a flex container */
+  .container {
+    display: block; /* Change to a flex container */
+    /* Flexbox styles */
+  }
+  .section-left {
+      min-width: 90%;
+      /* border: solid green 2px;  */
       /* Flexbox styles */
     }
-    .section-left {
-        min-width: 90%;
-        /* border: solid green 2px;  */
-        /* Flexbox styles */
-      }
 
-      .section-right {
-        min-width: 90%;
-        /* border: solid green 2px;  */
-        /* Flexbox styles */
-      }
-  }
+    .section-right {
+      min-width: 90%;
+      /* border: solid green 2px;  */
+      /* Flexbox styles */
+    }
+}
 
 
 .list-card {
-    -moz-box-shadow: 0px 0px 29px -4px rgba(0, 0, 0, 0.46);
-    /* margin: 30px 80px; */
-    padding: 25px 25px 10px 25px;
-    border-radius: 10px;
-    background: #ffffff;
-    box-shadow: -20px 20px 60px #d9d9d9, 20px -20px 60px #ffffff;
-    /* display: inline-block; */
-    display: flex;
-  flex-direction: column; /* Stacks children vertically */
-  align-items: flex-start; /* Aligns children to the left */
-  list-style-type: none;
-  /* border: solid blue 2px; */
-  min-width: 40%;
-  }
+  -moz-box-shadow: 0px 0px 29px -4px rgba(0, 0, 0, 0.46);
+  /* margin: 30px 80px; */
+  padding: 25px 25px 10px 25px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: -20px 20px 60px #d9d9d9, 20px -20px 60px #ffffff;
+  /* display: inline-block; */
+  display: flex;
+flex-direction: column; /* Stacks children vertically */
+align-items: flex-start; /* Aligns children to the left */
+list-style-type: none;
+/* border: solid blue 2px; */
+min-width: 40%;
+}
 
 .slack {
-    padding-bottom: 15px;
-  }
-  
+  padding-bottom: 15px;
+}
+
 
 .slack img {
-    width: 42px;
-    height: 42px;
-    border-radius: 5px;
-    float: left;
-    margin-right: 10px;
+  width: 42px;
+  height: 42px;
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
 }
 
 
 
-  
+
 .slack .slackname {
-    font-weight: 600;
-    font-size: 16px;
-    color: #1d1c1d;
+  font-weight: 600;
+  font-size: 16px;
+  color: #1d1c1d;
 }
-  
+
 .slack .slacktime {
-    font-size: 14px;
-    color: #616061;
+  font-size: 14px;
+  color: #616061;
 }
-  
+
 .slack .slackmessage {
-    font-size: 16px;
-    color: #1d1c1d;
+  font-size: 16px;
+  color: #1d1c1d;
 }
 
 
 #subscribe-btn {
-    background-color: #444649;
-    text-decoration: none;
-    font-weight: bold;
-    color:white;
-  }
+  background-color: #444649;
+  text-decoration: none;
+  font-weight: bold;
+  color:white;
+}
 
 
 .list {
-    list-style-type: none;
-    line-height:1.8rem;
+  list-style-type: none;
+  line-height:1.8rem;
 }
 /* 
 .wholesite{
-    
+  
 }
 
 .class{
