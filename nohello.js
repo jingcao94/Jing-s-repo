@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Email Subscription</title>
-</head>
-<body>
-    <h1>Subscribe to Our Newsletter</h1>
-    <div id="subscription-form">
-        <input type="email" id="email" placeholder="Enter your email" required>
-        <button id="subscribe-btn">Subscribe</button>
-    </div>
-    <p id="message"></p>
 
-    <script>
         document.getElementById("subscribe-btn").addEventListener("click", function () {
             const email = document.getElementById("email").value;
             const message = document.getElementById("message");
@@ -31,8 +16,4 @@
             const re = /\S+@\S+\.\S+/;
             return re.test(email);
         }
-    </script>
-    
-    
-</body>
-</html>
+

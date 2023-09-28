@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+</head>
+<body>
+    <h1>Thank You for Subscribing!</h1>
+    <div id="message"></div>
+
+    <script>
+        // Extract email from the query parameter
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const email = urlParams.get("email");
+
+        // Display the email in the message
+        const message = document.getElementById("message");
+        message.textContent = `Your email address ${email} has been subscribed.`;
+    </script>
+</body>
+</html>
