@@ -1,0 +1,91 @@
+.profile-img{ height: 200px; width: 200px; border-radius: 100px; margin: 20px auto;
+margin-top: 4rem;
+box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+} 
+
+.cd-1{ 
+background-color: #0045c3;
+color:white }
+
+.cd-2{ 
+    background-color: #054244;
+    color:white }
+
+.cd-3{ 
+    background-color: #011e64;
+    color:white }
+
+.carousel-header-custom {
+        text-align: left; /* Center align the header */
+        /* background-color: #5d5c61; */
+        background-color: #659dbd;
+        /* Background color for the header */
+        color: #fff; /* Text color */
+        padding: 10px; /* Add padding for spacing */
+       /* Use a Google Font, or specify your preferred font-family */
+    }
+    .work-header-custom {
+        text-align: left; /* Center align the header */
+        /* background-color: #5d5c61; */
+        background-color: white;
+        /* Background color for the header */
+        color: black; /* Text color */
+        padding: 10px; /* Add padding for spacing */
+        margin-top:1.5vw;
+       /* Use a Google Font, or specify your preferred font-family */
+    }
+
+    .carousel-caption {
+        font-size: 2.2vw; /* Adjust the size as needed */
+    }
+    .col {
+        font-size: 2.2vw; /* Adjust the size as needed */
+    }
+/* Custom CSS class for adding margin to the container */
+.container-with-margin {
+    margin: 20px; /* Adjust the margin size as needed */
+    /* border: solid red 2px; */
+}
+
+.my-header {
+    margin: 5vw; /* Adjust the margin size as needed */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.col-start-l {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: solid red 2px; */
+}
+
+.row {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: solid green 2px; */
+
+}
+
+.bi {
+color:#501B1D;
+
+}
+
+.container {
+    /* border: solid blue 2px; */
+    min-width: 97%;
+    
+}
+@media (max-width: 781px) {
+    .row {
+      display: block; /* Change to a flex container */
+      /* Flexbox styles */
+    }}
+
+    
+    .accordion-button.gray-accordion {
+        background-color: #b1a296; /* Set the background color to gray */
+        color: #333; /* Set the text color to a darker shade */
+    }
